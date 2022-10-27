@@ -1,4 +1,4 @@
-
+/* 
 :root{
     --main-text-color: #212121;
     --secondary-text-color: #ffffff;
@@ -72,7 +72,7 @@ html{
 }
 .conteiner{
     width: 1200px;
-    /* outline: 5px solid tomato; */
+    
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -86,7 +86,7 @@ html{
     
 }
 .conteiner-section{
-    /* display: flex; */
+  
     margin-top: 32px;
     margin-bottom: 32px;
     padding-left: 15px;
@@ -245,11 +245,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .header-tel:focus .header-icon{
     fill: var(--acent-color);
 }
-
+ */
 
 
 /* --------------------HERO-------------------- */
-.visually-hidden{
+/* .visually-hidden{
  position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -260,9 +260,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.subject{
+/* .subject{
 
     background-color: var(--background-footer-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/hero-bg.jpg);
@@ -323,11 +323,11 @@ background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .btn:focus{
     background-color: #2196F3;
     color:var(--buttons-port-color);
-}
+} */
 
 
 /* ---------------------ПЕРЕВАГИ--------------- */
-.conteiner-teem{
+/* .conteiner-teem{
     padding-top: 94px;
     padding-bottom: 94px;
    
@@ -385,16 +385,11 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--ouwer-text-color);
-}
+} */
 
    
-.teem{
-    background: #F5F4FA;
-    padding: 94px 0;
 
-    
-}
-.conteiner-teem-desk{
+/* .conteiner-teem-desk{
     padding-bottom: 94px;
 }
 .img-conteiner{
@@ -416,6 +411,7 @@ letter-spacing: 0.03em;
 color: var(--main-text-color);
 
 }
+
 .product{
     position: relative;
 }
@@ -437,8 +433,14 @@ text-transform: uppercase;
 
 color: var(--secondary-text-color);
 background: rgba(47, 48, 58, 0.8);
-}
+} */
 
+/* .teem{
+    background: #F5F4FA;
+    padding: 94px 0;
+
+    
+}
 .teem-desk-conteiner{
    margin-top: 0;
     margin-bottom: 50px;
@@ -516,11 +518,11 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 .soc-link-teem:focus{
 background-color: var(--acent-color);
 color: var(--background-color);
-}
+} */
 
    /* --------------------------------------- ПОСТІЙНІ КЛІЄНТИ-------------------- */
 
-.client-text{
+/* .client-text{
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -557,13 +559,13 @@ color: var(--background-color);
 .icon-client:focus{
 
     border: 1px solid var(--acent-color);
-    fill: var(--acent-color);}
+    fill: var(--acent-color);} */
     
 
   
 
                                                 /* FOOTER */
-.footer{
+/* .footer{
     background-color:  var(--background-footer-color);
     padding: 60px 0;
    
@@ -736,14 +738,14 @@ transform: translateY(-50%);
 fill: var(--background-color);
 
 
-}
+} */
 
 
 
                                   /* portfolio */
 
 
-.header{
+/* .header{
     border-bottom: 1px solid var(--line-color);
 }
 
@@ -873,9 +875,9 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--ouwer-text-color);
-}
+} */
 /* -----------MODALKA--------------------- */
-.backdrop{
+/* .backdrop{
     position: fixed;
     top: 0;
     left: 0;
@@ -1099,4 +1101,4 @@ background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: var(--acent-color);
   
 
-}
+} */

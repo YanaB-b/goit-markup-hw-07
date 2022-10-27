@@ -1,0 +1,59 @@
+.conteiner-teem{
+    padding-top: 94px;
+    padding-bottom: 94px;
+   
+}
+.advantage-nav{
+    display:flex;
+    gap: 30px;
+}
+.advantage{
+    max-width: 270px;
+    
+}
+.advantage::before
+{
+    display: block;
+    content: "";
+    height: 120px;
+    background-color: var(--buttons-port-color);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    
+}
+.icon-antenna::before{
+background-image: url(../images/antenna.svg);
+}
+.icon-clok::before{
+    background-image: url(../images/clock.svg);
+}
+.icon-diagram::before{
+    background-image: url(../images/diagram.svg);}
+
+.icon-astronaut::before{
+    background-image: url(../images/astronaut\ 1.svg);}
+    
+.teem-top{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
+    
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-text-color);
+
+}
+.teem-text{
+margin-top: 0;
+margin-bottom: 0;
+
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--ouwer-text-color);
+}
