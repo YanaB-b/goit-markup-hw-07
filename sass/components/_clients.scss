@@ -6,9 +6,10 @@
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: var(--main-text-color);
+
 }
+
 .client-nav{
     display: flex;
     gap: 30px;
@@ -27,11 +28,11 @@
     fill: var(--icon-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    &:hover,
+    &:focus{
+    
+        border: 1px solid var(--acent-color);
+        fill: var(--acent-color);
+    }
 }
 
-.icon-client:hover,
-.icon-client:focus{
-
-    border: 1px solid var(--acent-color);
-    fill: var(--acent-color);}

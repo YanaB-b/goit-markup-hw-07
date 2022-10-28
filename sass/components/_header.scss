@@ -2,156 +2,127 @@
     display: flex;
     align-items: center;
 }
-.conteiner-nav{
+.conteiner__nav{
     display: flex;
     align-items: center;
     
 }
-.conteiner-section{
-    /* display: flex; */
-    margin-top: 32px;
-    margin-bottom: 32px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 0px;
-    
 
-}
-.header-logo{
-    
+.header__logo{
     margin-right: 93px;
     margin-left: 0;
 
-    font-family: 'Raleway';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.19;
-   letter-spacing: 0.03em;
-   color: var(--acent-color);
-   }
-
-   .header-logo-color{
+}
+.logo{
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-   letter-spacing: 0.03em;
+    @include font(700, 26px, 1.19, 0.03em);
+    color: var(--acent-color);
+}
+
+.header__logo__color{
+    font-family: 'Raleway';
+    font-style: normal;
+    @include font(700, 26px, 1.19, 0.03em);
     color: #000000;
+}
 
-   }
-   .header-item{
-   
-    margin-right: 50px;
-   }
-   .header-item:last-child{
+.menu__item{
+margin-right: 50px;
+&:last-child{
     margin-right: 0;
-   }
-.header-list{
+}
+}
+
+
+.menu__list{
     margin-right: 30px;
-    
+    &:last-child {
+        margin-right: 0;}
 }
- .header-list:last-child {
-     margin-right: 0;
-       
-}
-.header-link{
+
+
+.menu__link{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-link:hover,
-.header-link:focus{
-     color: var(--acent-color);
-     cursor: pointer;
+    &:hover,
+    &:focus{
+    color: var(--acent-color);
+    cursor: pointer;}
 }
 
-
-.header-link{
+.menu__link{
     padding: 33px 0;
     display: block;
-  
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-text-color);
-
-}
-.header-link.current{
-   position: relative;
-}
-.header-link.current::after{
-    content:'';
-    position: absolute;
-
-    bottom: 0;
-    width: 100%;
-    height: 4px;
-    display: block;
-  
-    background-color: var(--acent-color);
-    border-radius: 2px;
-
+    @include font(500, 14px, 1.14, 0.02em);
+    color: var(--main-text-color);
 
 }
 
-.header-mail{
-
-   padding: 32px 0;
-display: flex;
-gap: 10px;
-align-items: center;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--ouwer-text-color);
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.menu__link.current{
+    position: relative;
+    &::after{
+        content:'';
+        position: absolute;
+    
+        bottom: 0;
+        width: 100%;
+        height: 4px;
+        display: block;
+        background-color: var(--acent-color);
+        border-radius: 2px;}
 }
 
-.header-tel{
-   padding: 32px 0;
-   display: flex;
-   gap: 10px;
-  
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--ouwer-text-color);
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+.contakt__mail{
+
+    padding: 32px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    @include font(500, 14px, 1.14, 0.02em);
+    color: var(--ouwer-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover, 
+        &:focus{
+        color: var(--acent-color);}
 
 }
-.conteiner-list{
+
+.contakt__tel{
+    padding: 32px 0;
+    display: flex;
+    gap: 10px;
+    @include font(500, 14px, 1.14, 0.02em);
+    color: var(--ouwer-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover, 
+        &:focus{
+        color: var(--acent-color);}
+
+
+}
+
+.contakt{
     margin-left: auto;
 }
-.header-icon{
-  
+.contakt__icon{
     fill: currentColor;
 
-}
-
-
-.header-mail .header-icon{
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-tel .header-icon{
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-mail:hover, 
-.header-mail:focus{
-    color: var(--acent-color);
-}
-.header-tel:hover, 
-.header-tel:focus{
-    color: var(--acent-color);
-}
-.header-mail:hover .header-icon,
-.header-mail:focus .header-icon{
-   fill: var(--acent-color);
-}
-.header-tel:hover .header-icon,
-.header-tel:focus .header-icon{
+    .contakt__mail:hover &,
+    .contakt__mail:focus &{
     fill: var(--acent-color);
 }
+    .contakt__tel:hover &,
+    .contakt__tel:focus &{
+    fill: var(--acent-color);
+}
+
+}
+
+.contakt__mail .contakt__icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contakt__tel .contakt__icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+

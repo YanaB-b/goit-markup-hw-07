@@ -15,40 +15,39 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styless.css" />
     <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <header class="header">
       <div class="conteiner">
-        <nav class="conteiner-nav conteiner-header">
-          <a class="header-logo link" href="./index.html">
-            Web<span class="header-logo-color link">Studio</span>
+        <nav class="conteiner__nav ">
+          <a class="logo header__logo link" href="./index.html">
+            Web<span class="header__logo__color link">Studio</span>
           </a>
-          <ul class="conteiner-nav menu header-list list">
-            <li class="header-item">
-              <a class="header-link link current" href="./index.html">Студія</a>
+          <ul class="conteiner__nav  menu__list list">
+            <li class="menu__item">
+              <a class="menu__link link current" href="./index.html">Студія</a>
             </li>
-            <li class="header-item">
-              <a class="header-link link" href="./portfolio.html">Портфоліо</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="header-item header-contakt">
-              <a class="header-link link" href="">Контакти</a>
+            <li class="menu__item ">
+              <a class="menu__link link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="conteiner-nav conteiner-list list">
-          <li class="header-list">
-            <a class="header-mail link" href="mailto:info@devstudio.com">
-              <svg class="header-icon" width="16px" height="12px">
+        <ul class="conteiner__nav contakt list">
+          <li class="menu__list">
+            <a class="contakt__mail link" href="mailto:info@devstudio.com">
+              <svg class="contakt__icon" width="16px" height="12px">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-list">
-            <a class="header-tel link" href="tel:+380961111111">
-              <svg class="header-icon" width="10px" height="16px">
+          <li class="menu__list">
+            <a class="contakt__tel link" href="tel:+380961111111">
+              <svg class="contakt__icon" width="10px" height="16px">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -60,42 +59,42 @@
     <main>
       <section class="subject">
         <div class="conteiner">
-          <div class="subject-content">
-            <h1 class="subject-text">Ефективні рішення для вашого бізнесу</h1>
-            <button data-modal-open class="btn subject-btn" type="button">
+          <div class="subject__content">
+            <h1 class="content hero__text">Ефективні рішення для вашого бізнесу</h1>
+            <button data-modal-open class="btn subject__btn" type="button">
               Замовити послугу
             </button>
           </div>
         </div>
       </section>
 
-      <section class="conteiner-teem">
+      <section class="benefits benefits__size">
         <div class="conteiner">
           <h2 class="visually-hidden">Переваги</h2>
-          <ul class="advantage-nav list">
-            <li class="advantage icon-antenna">
-              <h3 class="teem-top">увага до деталей</h3>
-              <p class="teem-text">
+          <ul class="benefits__nav list">
+            <li class="advantage icon__antenna">
+              <h3 class="benefits__top">увага до деталей</h3>
+              <p class="benefits__text ">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="advantage icon-clok">
-              <h3 class="teem-top">пунктуальність</h3>
-              <p class="teem-text">
+            <li class="advantage icon__clok">
+              <h3 class="benefits__top">пунктуальність</h3>
+              <p class="benefits__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="advantage icon-diagram">
-              <h3 class="teem-top">планування</h3>
-              <p class="teem-text">
+            <li class="advantage icon__diagram">
+              <h3 class="benefits__top">планування</h3>
+              <p class="benefits__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="advantage icon-astronaut">
-              <h3 class="teem-top">cучасні технології</h3>
-              <p class="teem-text">
+            <li class="advantage icon__astronaut">
+              <h3 class="benefits__top">cучасні технології</h3>
+              <p class="benefits__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -104,21 +103,21 @@
         </div>
       </section>
 
-      <section class="conteiner-teem-desk">
+      <section class="desktop">
         <div class="conteiner">
-          <h2 class="teem-desk">Чим ми займаємося</h2>
-          <ul class="img-conteiner list">
+          <h2 class="desk desk__test">Чим ми займаємося</h2>
+          <ul class="img__desk list">
             <li class="product">
               <img src="images/img.jpg" alt="photo" width="370" height="294" />
-              <p class="job-text">десктопні додатки</p>
+              <p class="product__text">десктопні додатки</p>
             </li>
             <li class="product">
               <img src="images/img1.jpg" alt="photo" width="370" height="294" />
-              <p class="job-text">мобільні додатки</p>
+              <p class="product__text">мобільні додатки</p>
             </li>
             <li class="product">
               <img src="images/img2.jpg" alt="photo" width="370" height="294" />
-              <p class="job-text">дизайнерські рішення</p>
+              <p class="product__text">дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -376,7 +375,7 @@
     <footer class="footer">
       <div class="conteiner footer-conteiner">
         <div class="footer-info">
-          <a class="conteiner-logo header-logo link" href="./index.html">
+          <a class="logo header-logo link" href="./index.html">
             Web<span class="footer-logo-color">Studio</span></a
           >
           <address>
